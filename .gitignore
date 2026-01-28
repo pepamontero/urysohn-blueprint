@@ -1,0 +1,36 @@
+# Archivos de Lean
+/.lake
+
+# Archivos generados por LaTeX
+*.aux
+*.bbl
+*.blg
+*.fls
+*.log
+*.run.xml
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.synctex(busy)
+
+# Archivos PDF generados
+*.pdf
+!Memoria/main.pdf
+
+# Archivos de backup
+*~
+
+# Hoja en sucio
+Leantest/hoja_en_sucio.lean
+Leantest/ejemplo.lean
+Leantest/lean_get_infos.py
+Leantest/resumen.md
+
+# Libros
+Memoria/sources/
+
+# Anotaciones
+*.xopp
+
+# Virtual environment
+.venv/
