@@ -47,8 +47,33 @@ jobs:
           lint: false
           mk_all-check: true
 
-      - name: Compile blueprint and documentation
-        uses: leanprover-community/docgen-action@deed0cdc44dd8e5de07a300773eb751d33e32fc8 # 2025-10-26
+#      - name: Compile blueprint and documentation
+#        uses: leanprover-community/docgen-action@deed0cdc44dd8e5de07a300773eb751d33e32fc8 # 2025-10-26
+#        with:
+#          blueprint: true
+#          homepage: home_page
+
+      - name: Build blueprint (web only)
+        run: |
+          pip install leanblueprint
+          leanblueprint web
+
+      - name: Build docs
+        run: |
+          cd docbuild
+          DISABLE_EQUATIONS=1 lake build Urysohn:docs
+          
+      - name: Prepare Pages site
+        run: |
+          mkdir site
+          cp -r blueprint/web site/blueprint
+          cp -r docbuild/.lake/build/doc site/docs
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          blueprint: true
-          homepage: home_page
+          path: site
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+
