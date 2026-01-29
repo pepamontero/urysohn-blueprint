@@ -1,4 +1,4 @@
-import Leantest.BasicProp.interior
+import Urysohn.BasicProp.interior
 
 #check closure
 

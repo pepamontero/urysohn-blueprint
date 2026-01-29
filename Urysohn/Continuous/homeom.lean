@@ -2,14 +2,12 @@ import Mathlib.Tactic
 
 open TopologicalSpace
 
-variable (u v : Universe)
-
 
 #check Homeomorph
 
 -- ejemplo de uso:
 
-example (X Y: Type) [TopologicalSpace X] [TopologicalSpace Y]
+example (X Y : Type) [TopologicalSpace X] [TopologicalSpace Y]
     (H : Homeomorph X Y) : ∃ f : X → Y, Continuous f := by
   use H.toFun
   exact H.continuous_toFun

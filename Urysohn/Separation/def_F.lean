@@ -1,5 +1,5 @@
-import Leantest.Separation.def_H
-import Leantest.MyDefs.my_inf
+import Urysohn.Separation.def_H
+import Urysohn.MyDefs.my_inf
 
 def F {X : Type} [TopologicalSpace X]
     (hT : ∀ (U C : Set X), IsOpen U → IsClosed C → C ⊆ U → ∃ V, IsOpen V ∧ C ⊆ V ∧ closure V ⊆ U)

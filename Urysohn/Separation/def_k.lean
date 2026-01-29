@@ -1,5 +1,5 @@
-import Leantest.Separation.def_F
-import Leantest.MyDefs.sets
+import Urysohn.Separation.def_F
+import Urysohn.MyDefs.sets
 
 
 noncomputable def k {X : Type} [TopologicalSpace X]

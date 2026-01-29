@@ -1,0 +1,1 @@
+{"declarations":[],"imports":["Init","Mathlib.Algebra.Group.ModEq","Mathlib.Algebra.Field.ModEq","Mathlib.GroupTheory.QuotientGroup.ModEq","Mathlib.Data.Nat.ModEq","Mathlib.Data.Int.ModEq"],"instances":[],"name":"Mathlib.Algebra.ModEq"}

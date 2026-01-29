@@ -1,0 +1,1 @@
+{"declarations":[],"imports":["Init","Mathlib.Algebra.NoZeroSMulDivisors.Defs","Mathlib.Algebra.Module.Prod"],"instances":[],"name":"Mathlib.Algebra.NoZeroSMulDivisors.Prod"}

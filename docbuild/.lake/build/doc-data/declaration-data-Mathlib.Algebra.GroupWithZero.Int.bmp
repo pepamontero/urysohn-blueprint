@@ -1,0 +1,1 @@
+{"declarations":[],"imports":["Init","Mathlib.Algebra.Group.Int.Defs","Mathlib.Algebra.GroupWithZero.WithZero"],"instances":[],"name":"Mathlib.Algebra.GroupWithZero.Int"}

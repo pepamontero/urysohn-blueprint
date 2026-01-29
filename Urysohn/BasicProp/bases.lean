@@ -1,4 +1,4 @@
-import Leantest.TopoSpaces.usual
+import Urysohn.TopoSpaces.usual
 
 namespace Leantest.Basic
 

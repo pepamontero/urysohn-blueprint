@@ -1,0 +1,1 @@
+{"declarations":[],"imports":["Init","Mathlib.Algebra.Divisibility.Hom","Mathlib.Algebra.Ring.Hom.Defs","Mathlib.Data.Set.Insert"],"instances":[],"name":"Mathlib.Deprecated.RingHom"}

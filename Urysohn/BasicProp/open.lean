@@ -1,4 +1,4 @@
-import Leantest.BasicProp.basic
+import Urysohn.BasicProp.basic
 
 
 /-

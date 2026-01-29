@@ -1,4 +1,5 @@
-import Mathlib
+import Mathlib.Data.Rat.Denumerable
+import Mathlib.Tactic
 
 lemma bijective_nat_rat : ∃ f : ℕ → ℚ, f.Bijective  := by
     have f := (Rat.instDenumerable.eqv).symm

@@ -1,7 +1,7 @@
-import Leantest.Separation.normal
-import Leantest.MyDefs.my_rs_functions
-import Leantest.MyDefs.my_lex_order
-import Leantest.MyDefs.my_induction
+import Urysohn.Separation.normal
+import Urysohn.MyDefs.my_rs_functions
+import Urysohn.MyDefs.my_lex_order
+import Urysohn.MyDefs.my_induction
 
 
 #check characterization_of_normal

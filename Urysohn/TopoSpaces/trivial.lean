@@ -1,8 +1,5 @@
 import Mathlib.Tactic -- catarme los imports necesarios solo
 
--- import Mathlib.Topology.Basic
--- me falla classical em
-
 -- ex 2
 -- prove that the discrete top. space is in fact a top
 

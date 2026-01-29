@@ -1,4 +1,4 @@
-import Leantest.BasicProp.open
+import Urysohn.BasicProp.open
 
 
 -- DEFINICIÓN DE INTERIOR DE UN CONJUNTO
